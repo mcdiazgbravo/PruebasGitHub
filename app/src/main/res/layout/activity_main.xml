@@ -38,4 +38,13 @@
         app:lottie_fileName="team4.json"
         app:lottie_loop="true" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KERMIT ZUICID"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="459dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
