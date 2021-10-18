@@ -15,7 +15,7 @@
         android:backgroundTint="#8cc145 "
         android:text="Consejos para mejorar las habilidades"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/btn_back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.982" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_back"
         android:layout_width="378dp"
         android:layout_height="96dp"
         android:layout_marginBottom="52dp"
