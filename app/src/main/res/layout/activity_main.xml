@@ -11,8 +11,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_black"
+        android:shadowColor="#00000000"
         android:text="Github"
-        android:textSize="34sp"
+        android:textColor="#040C1E"
+        android:textSize="96sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -20,29 +23,17 @@
         app:layout_constraintVertical_bias="0.159" />
 
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="142dp"
-        android:text="Cambio 1"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/work"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleX="1.5"
-        android:scaleY="1.5"
+        android:scaleX="1.4"
+        android:scaleY="1.4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55"
+        app:layout_constraintVertical_bias="0.6"
         app:lottie_autoPlay="true"
         app:lottie_fileName="team4.json"
         app:lottie_loop="true" />
