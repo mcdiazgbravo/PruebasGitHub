@@ -11,12 +11,12 @@
         android:id="@+id/button3"
         android:layout_width="378dp"
         android:layout_height="96dp"
+        android:layout_marginBottom="8dp"
         android:backgroundTint="#8cc145 "
         android:text="Consejos para mejorar las habilidades"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_back"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -27,12 +27,11 @@
         android:backgroundTint="#e43d58 "
         android:text="Iniciar Actividad"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982" />
+        app:layout_constraintVertical_bias="0.714" />
 
     <Button
         android:id="@+id/btn_back"
@@ -52,7 +51,7 @@
         android:layout_width="545dp"
         android:layout_height="162dp"
         android:fontFamily="@font/roboto_black"
-        android:text="Ejemplo"
+        android:text="Prueba Cambio"
         android:textAlignment="center"
         android:textColor="#040C1E"
         android:textSize="48sp"
@@ -71,5 +70,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.368"
-        app:srcCompat="@drawable/habilidades_intro" />
+        app:srcCompat="@drawable/descarga" />
 </androidx.constraintlayout.widget.ConstraintLayout>
