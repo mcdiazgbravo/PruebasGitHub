@@ -7,6 +7,14 @@
     android:background="#F9F8F8"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="321dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
