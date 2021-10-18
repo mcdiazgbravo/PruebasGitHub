@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F9F8F8"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Monas Chinas Supremacy"
+        android:text="Github"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -18,19 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.159" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="399dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="101dp"
-        android:layout_marginTop="165dp"
-        android:layout_marginEnd="101dp"
-        android:layout_marginBottom="127dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/shogun" />
 
     <TextView
         android:id="@+id/textView2"
@@ -56,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.55"
         app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_fileName="team4.json" />
+        app:lottie_fileName="team4.json"
+        app:lottie_loop="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
